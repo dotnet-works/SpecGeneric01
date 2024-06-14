@@ -1,4 +1,5 @@
-﻿using BoDi;
+﻿using Allure.Net.Commons;
+using BoDi;
 using TechTalk.SpecFlow;
 
 namespace SpecGeneric01.Utils
@@ -7,7 +8,7 @@ namespace SpecGeneric01.Utils
     public sealed class BasicHooks
     {
         private IObjectContainer _container;
-
+        private static AllureLifecycle _lifecycle = AllureLifecycle.Instance;
         public BasicHooks(IObjectContainer _container)
         {
             this._container = _container;  
@@ -17,7 +18,7 @@ namespace SpecGeneric01.Utils
         [BeforeTestRun]
         public static void beforeTestRun()
         {
-
+            _lifecycle.CleanupResultDirectory(); 
         }
 
         [AfterTestRun]
