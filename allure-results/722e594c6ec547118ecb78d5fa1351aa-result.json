@@ -1,0 +1,90 @@
+{
+  "uuid": "07a0b2a1-6996-46b5-91f4-140fbbd646bb",
+  "historyId": "ee38694a61ccdac7f7ad896633fb2f0e",
+  "testCaseId": "d13a7e6bb13b7be11f6db2b4a6b637a2",
+  "fullName": "SpecGeneric01/Features/Non Web Tests/Test1 Json Data",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SRRVDGO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Non Web Tests"
+    },
+    {
+      "name": "tag",
+      "value": "web"
+    }
+  ],
+  "links": [],
+  "name": "Test1 Json Data",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  the following JSON data:",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "running",
+      "steps": [
+        {
+          "name": "When  the following JSON data2:",
+          "status": "none",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "running",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1718386182048,
+          "stop": 0
+        }
+      ],
+      "attachments": [
+        {
+          "name": "multiline argument",
+          "source": "d5e6c308-9b79-40ed-9366-e1baa3a91cc1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1718386182015,
+      "stop": 0
+    }
+  ],
+  "attachments": [
+    {
+      "name": "multiline argument",
+      "source": "2e8b144d-dd7c-4c35-93f5-0ee756b48000-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1718386181994,
+  "stop": 1718386182054
+}

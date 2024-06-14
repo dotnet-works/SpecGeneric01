@@ -1,0 +1,60 @@
+{
+  "uuid": "5f6276be-58d5-4575-bb0c-1583e0f5a6c1",
+  "historyId": "cda91e9a2d21b4504258ca91363152b8",
+  "testCaseId": "f9ef4b606553a42b99489c1e1ad772cd",
+  "fullName": "SpecGeneric01/Features/Test mix features/Test 3 write to json file",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SRRVDGO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Test mix features"
+    }
+  ],
+  "links": [],
+  "name": "Test 3 write to json file",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Object reference not set to an instance of an object.",
+    "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at WebSpec01.Utils.WebHooks.afterSpecStep(ScenarioContext scenarioContext) in E:\\DotnetWorks\\SpecGeneric01\\Utils\\WebHooks.cs:line 98\r\n   at InvokeStub_Action`2.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.CallBaseInvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.ProcessStepHook(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  write data to json file",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718355459099,
+      "stop": 1718355459162
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1718355459092,
+  "stop": 1718355459176
+}

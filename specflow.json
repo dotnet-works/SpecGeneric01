@@ -1,0 +1,8 @@
+{
+  "bindingCulture": { "language": "en-us" },
+  "language": { "feature": "en-us" },
+  "plugins": [],
+  "generator": { "addNonParallelizableMarkerForTags": [ "notParallel" ] },
+  "stepAssemblies": [ { "assembly": "Allure.SpecFlowPlugin" } ],
+  "trace": { "traceSuccessfulSteps": false }
+}

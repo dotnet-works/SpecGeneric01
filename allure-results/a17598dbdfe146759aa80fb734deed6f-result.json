@@ -1,0 +1,86 @@
+{
+  "uuid": "b8d832f0-9c1b-4c87-b6b4-26508fb6abce",
+  "historyId": "ee38694a61ccdac7f7ad896633fb2f0e",
+  "testCaseId": "d13a7e6bb13b7be11f6db2b4a6b637a2",
+  "fullName": "SpecGeneric01/Features/Non Web Tests/Test1 Json Data",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SRRVDGO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Non Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "Test1 Json Data",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  the following JSON data:",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "running",
+      "steps": [
+        {
+          "name": "When  the following JSON data2:",
+          "status": "none",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "running",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1718386218244,
+          "stop": 0
+        }
+      ],
+      "attachments": [
+        {
+          "name": "multiline argument",
+          "source": "2b64d40a-688d-4965-ac1f-3802914d43e2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1718386218225,
+      "stop": 0
+    }
+  ],
+  "attachments": [
+    {
+      "name": "multiline argument",
+      "source": "d816578f-9f9f-4551-b78c-fd15773afb31-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1718386218204,
+  "stop": 1718386218253
+}

@@ -1,0 +1,73 @@
+{
+  "uuid": "27314f3c-6d74-49d4-bbf8-ff5168638c0b",
+  "historyId": "cda91e9a2d21b4504258ca91363152b8",
+  "testCaseId": "f9ef4b606553a42b99489c1e1ad772cd",
+  "fullName": "SpecGeneric01/Features/Test mix features/Test 3 write to json file",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SRRVDGO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Test mix features"
+    }
+  ],
+  "links": [],
+  "name": "Test 3 write to json file",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  write data to json file",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718355481598,
+      "stop": 1718355481680
+    },
+    {
+      "name": "When  read data from json file",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718355481685,
+      "stop": 1718355481690
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1718355481592,
+  "stop": 1718355481692
+}

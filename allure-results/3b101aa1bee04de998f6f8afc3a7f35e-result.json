@@ -1,0 +1,92 @@
+{
+  "uuid": "351659c6-e0d7-45a1-b0fd-def9ad37ba29",
+  "historyId": "1e5484a26463f22838eabe9a06a010b8",
+  "testCaseId": "df1f6b8d07ac03e85b20f6f3b3248c25",
+  "fullName": "SpecGeneric01/Features/Para01/Google Tests/Test 2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SRRVDGO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Google Tests"
+    },
+    {
+      "name": "tag",
+      "value": "web"
+    }
+  ],
+  "links": [],
+  "name": "Test 2",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  user navigates to \"https://www.google.com\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718349942748,
+      "stop": 1718349944268
+    },
+    {
+      "name": "When  search \"cucumber\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718349944272,
+      "stop": 1718349945911
+    },
+    {
+      "name": "And  wait for 2000",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718349945913,
+      "stop": 1718349947945
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1718349942734,
+  "stop": 1718349947956
+}

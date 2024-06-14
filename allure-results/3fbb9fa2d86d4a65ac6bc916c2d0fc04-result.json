@@ -1,0 +1,133 @@
+{
+  "uuid": "e5eade61-4859-4c24-a704-79a05106090c",
+  "historyId": "3e702c53ce3e4368133dd968643f2fa9",
+  "testCaseId": "d08998054ae3ccf0cf6cf3a157c7ade9",
+  "fullName": "SpecGeneric01/Features/SocialNet01/Test2 Login with new user",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SRRVDGO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "SocialNet01"
+    },
+    {
+      "name": "tag",
+      "value": "web"
+    }
+  ],
+  "links": [],
+  "name": "Test2 Login with new user",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "target frame detached\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=125.0.6422.142)",
+    "trace": "OpenQA.Selenium.WebDriverException: target frame detached\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=125.0.6422.142)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SpecGeneric01.Pages.SocialNetwork.MainPage.get_Login() in E:\\DotnetWorks\\SpecGeneric01\\Pages\\SocialNetwork\\MainPage.cs:line 23\r\n   at SpecGeneric.Steps.SocialNetSteps1.login() in E:\\DotnetWorks\\SpecGeneric01\\Steps\\SocialNetSteps1.cs:line 33\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  user navigates to \"https://www.opensource-socialnetwork.org/demo\"",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "running",
+      "steps": [
+        {
+          "name": "When  navigate to socialnetwork page",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "target frame detached\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=125.0.6422.142)",
+            "trace": "OpenQA.Selenium.WebDriverException: target frame detached\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=125.0.6422.142)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SpecGeneric01.Pages.SocialNetwork.MainPage.get_Login() in E:\\DotnetWorks\\SpecGeneric01\\Pages\\SocialNetwork\\MainPage.cs:line 23\r\n   at SpecGeneric.Steps.SocialNetSteps1.login() in E:\\DotnetWorks\\SpecGeneric01\\Steps\\SocialNetSteps1.cs:line 33\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1718386166891,
+          "stop": 1718386167285
+        },
+        {
+          "name": "And  switch to window \"Welcome:Open Source Social Network\" with title",
+          "status": "skipped",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1718386167286,
+          "stop": 1718386167286
+        },
+        {
+          "name": "When  enter user credentails:",
+          "status": "skipped",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "table",
+              "source": "925bfe65-4e63-4c5f-b5e6-8b934620becc-attachment.csv",
+              "type": "text/csv"
+            }
+          ],
+          "parameters": [],
+          "start": 1718386167315,
+          "stop": 1718386167358
+        },
+        {
+          "name": "When  logout from account",
+          "status": "skipped",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1718386167359,
+          "stop": 1718386167359
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718386166156,
+      "stop": 0
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1718386166156,
+  "stop": 1718386167360
+}

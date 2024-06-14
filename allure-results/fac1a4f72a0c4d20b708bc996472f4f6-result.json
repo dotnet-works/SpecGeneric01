@@ -1,0 +1,88 @@
+{
+  "uuid": "efd98831-c117-4aee-8793-08f350a170a8",
+  "historyId": "ee38694a61ccdac7f7ad896633fb2f0e",
+  "testCaseId": "d13a7e6bb13b7be11f6db2b4a6b637a2",
+  "fullName": "SpecGeneric01/Features/Non Web Tests/Test1 Json Data",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SRRVDGO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Non Web Tests"
+    }
+  ],
+  "links": [],
+  "name": "Test1 Json Data",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: SpecGeneric.Steps.SocialNetSteps1)",
+    "trace": "BoDi.ObjectContainerException: Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: SpecGeneric.Steps.SocialNetSteps1)\r\n   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\r\n   at BoDi.ObjectContainer.<>c__DisplayClass71_0.<ResolveArguments>b__0(ParameterInfo p)\r\n   at System.Linq.Enumerable.SelectArrayIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)\r\n   at System.Linq.Enumerable.SelectArrayIterator`2.ToArray()\r\n   at BoDi.ObjectContainer.ResolveArguments(IEnumerable`1 parameters, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.CreateObject(Type type, ResolutionList resolutionPath, RegistrationKey keyToResolve)\r\n   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, String name)\r\n   at TechTalk.SpecFlow.Infrastructure.TestObjectResolver.ResolveBindingInstance(Type bindingType, IObjectContainer container)\r\n   at lambda_method35(Closure, IContextManager, String)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.DoTransform(IStepArgumentTransformationBinding stepTransformation, Object value, CultureInfo cultureInfo)\r\n   at TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.Convert(Object value, IBindingType typeToConvertTo, CultureInfo cultureInfo)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ConvertArg(Object value, IBindingType typeToConvertTo)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.<>c__DisplayClass59_0.<GetExecuteArguments>b__0(Object arg, Int32 argIndex)\r\n   at System.Linq.Enumerable.SelectIterator[TSource,TResult](IEnumerable`1 source, Func`3 selector)+MoveNext()\r\n   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)\r\n   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.GetExecuteArguments(BindingMatch match)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  the following JSON data:",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: SpecGeneric.Steps.SocialNetSteps1)",
+        "trace": "BoDi.ObjectContainerException: Interface cannot be resolved: OpenQA.Selenium.IWebDriver (resolution path: SpecGeneric.Steps.SocialNetSteps1)\r\n   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\r\n   at BoDi.ObjectContainer.<>c__DisplayClass71_0.<ResolveArguments>b__0(ParameterInfo p)\r\n   at System.Linq.Enumerable.SelectArrayIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)\r\n   at System.Linq.Enumerable.SelectArrayIterator`2.ToArray()\r\n   at BoDi.ObjectContainer.ResolveArguments(IEnumerable`1 parameters, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.CreateObject(Type type, ResolutionList resolutionPath, RegistrationKey keyToResolve)\r\n   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, String name)\r\n   at TechTalk.SpecFlow.Infrastructure.TestObjectResolver.ResolveBindingInstance(Type bindingType, IObjectContainer container)\r\n   at lambda_method35(Closure, IContextManager, String)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.DoTransform(IStepArgumentTransformationBinding stepTransformation, Object value, CultureInfo cultureInfo)\r\n   at TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.Convert(Object value, IBindingType typeToConvertTo, CultureInfo cultureInfo)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ConvertArg(Object value, IBindingType typeToConvertTo)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.<>c__DisplayClass59_0.<GetExecuteArguments>b__0(Object arg, Int32 argIndex)\r\n   at System.Linq.Enumerable.SelectIterator[TSource,TResult](IEnumerable`1 source, Func`3 selector)+MoveNext()\r\n   at System.Collections.Generic.LargeArrayBuilder`1.AddRange(IEnumerable`1 items)\r\n   at System.Collections.Generic.EnumerableHelpers.ToArray[T](IEnumerable`1 source)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.GetExecuteArguments(BindingMatch match)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718375137728,
+      "stop": 1718375138003
+    },
+    {
+      "name": "When  the following JSON data2:",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718375138009,
+      "stop": 1718375138010
+    }
+  ],
+  "attachments": [
+    {
+      "name": "multiline argument",
+      "source": "b71a8ed0-dc9a-40d1-abc6-9dd89c5fc344-attachment.txt",
+      "type": "text/plain"
+    },
+    {
+      "name": "multiline argument",
+      "source": "f0c890d1-64b5-482e-a006-cd4a21a47ed6-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1718375137670,
+  "stop": 1718375138040
+}

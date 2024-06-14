@@ -1,0 +1,87 @@
+{
+  "uuid": "74966c37-f73a-4bd0-8f1d-982ad9d7dc41",
+  "historyId": "3bcfd4ce7e7819d05ffe2ce1c78c508f",
+  "testCaseId": "f6e4f576526fb2208e175e970bce0e86",
+  "fullName": "SpecGeneric01/Features/SocialNet01/Test4 Test Step error Data",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-SRRVDGO"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "SocialNet01"
+    },
+    {
+      "name": "tag",
+      "value": "web"
+    }
+  ],
+  "links": [],
+  "name": "Test4 Test Step error Data",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "I am going to Fail",
+    "trace": "NUnit.Framework.AssertionException: I am going to Fail\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.Fail(String message)\r\n   at SpecGeneric.Steps.SocialNetSteps1.errorX1() in E:\\DotnetWorks\\SpecGeneric01\\Steps\\SocialNetSteps1.cs:line 294\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  the following JSON data2:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718372995664,
+      "stop": 1718372995692
+    },
+    {
+      "name": "Then  should be error in step",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "I am going to Fail",
+        "trace": "NUnit.Framework.AssertionException: I am going to Fail\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.Fail(String message)\r\n   at SpecGeneric.Steps.SocialNetSteps1.errorX1() in E:\\DotnetWorks\\SpecGeneric01\\Steps\\SocialNetSteps1.cs:line 294\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718372995700,
+      "stop": 1718372995828
+    }
+  ],
+  "attachments": [
+    {
+      "name": "multiline argument",
+      "source": "dfadbb62-7753-4ca3-ad80-107245ce7de3-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1718372995603,
+  "stop": 1718372995859
+}

@@ -1,0 +1,29 @@
+{
+  "uuid": "95e3a2c0-a5dd-4242-8cd4-3b880dbc6e6b",
+  "children": [
+    "0c52fd41-596f-4e6d-8208-c76270e125eb"
+  ],
+  "befores": [
+    {
+      "name": "FirstBeforeScenario [10000]",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The ScenarioContext.Current static accessor cannot be used in multi-threaded execution. Try injecting the scenario context to the binding class. See https://go.specflow.org/doc-multithreaded for details.",
+        "trace": "TechTalk.SpecFlow.SpecFlowException: The ScenarioContext.Current static accessor cannot be used in multi-threaded execution. Try injecting the scenario context to the binding class. See https://go.specflow.org/doc-multithreaded for details.\r\n   at TechTalk.SpecFlow.ScenarioContext.get_Current()\r\n   at WebSpec01.Utils.WebHooks.FirstBeforeScenario() in E:\\DotnetWorks\\SpecGeneric01\\Utils\\WebHooks.cs:line 81\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.CallBaseInvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.MakeFixtureFromScenarioHook(Action`2 callLastHook, Action`1 startFixture, IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, HookBinding hook)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1718354288249,
+      "stop": 1718354288313
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1718354288245,
+  "stop": 1718354288426
+}
